@@ -5,7 +5,6 @@ valor_da_hora = input('valor da hora: ')
 prazo = input('prazo estimado: ')
 valor_total = int(valor_da_hora) * int(horas_estimadas)
 
-
 pdf = FPDF()
 pdf.add_page()
 pdf.image('template.png', x=0, y=0)
